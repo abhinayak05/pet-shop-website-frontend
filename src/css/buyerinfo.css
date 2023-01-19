@@ -1,0 +1,95 @@
+.inputbox {
+  width: 100%;
+  height: 30px;
+  margin: 10px 0;
+  padding: 0 10px;
+  border: 1px solid #ccc;
+  }
+
+  .imgbox {
+    width: 100%;
+    height: 42px;
+    margin: 10px 0;
+    padding: 10px 10px;
+    border: 1px solid #ccc;
+}
+  
+  .addrBtn{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 14px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+  }
+
+  .delivery-addr{
+    height: auto;
+    width: 100%;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #000;
+  }
+
+  .tag{
+    background: #ff523b;
+    color: #fff;
+    text-align: center;
+    float: right;
+    padding: 14px 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    border: none;
+  }
+  
+  .cnfrm {
+    height:auto;
+    width:100%;
+    padding: 40px;
+    text-align: center;
+    background-color: white;
+    color: white;
+  }
+
+  
+
+  label {
+    margin-left: 10px; 
+   }
+
+   h2 {
+    align-items: center;
+   }
+   
+  
+   .addrBtn:hover {
+    background-color: #FFA500;
+  }
+
+  
+  .fcontainer {
+    max-width: 50%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0px 1px 5px 0px black;
+  }
+
+  /* @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  } */
