@@ -46,23 +46,23 @@ export function ProductDetails() {
         <h2>Product Details</h2>
         <div className="row">
           <div className="col-2">
-            <img src={"http://localhost:4000/assets/" + products[0].image_url} width="100%" id="ProductImg" />
+            <img src={"http://localhost:4000/assets/" + id.image_url} width="100%" id="ProductImg" />
 
           </div>
           <div className="col-2">
-            {/* <p>{products[0].product_type}</p> */}
-            <h2>{products[0].product_name}</h2>
-            <p>{(products[0].pet_gender != "null" ? "Gender: " + products[0].pet_gender : "Product Type: " + products[0].product_type)}</p>
-            <p>{(products[0].pet_age != 0 ? "Pet Age: " + products[0].pet_age : "")}</p>
-            <h4>₹{products[0].product_price}</h4>
-            <p>Sold By: {products[0].seller_name}</p>
+            {/* <p>{id.product_type}</p> */}
+            <h2>{id.product_name}</h2>
+            <p>{(id.pet_gender != "null" ? "Gender: " + id.pet_gender : "Product Type: " + id.product_type)}</p>
+            <p>{(id.pet_age != 0 ? "Pet Age: " + id.pet_age : "")}</p>
+            <h4>₹{id.product_price}</h4>
+            <p>Sold By: {id.seller_name}</p>
 
             <input type="number" value={quantity} onChange={(evt)=>setQuantity(evt.target.value)}/>
-            <button className="btn" onClick={()=>addToCart(products[0])} >Add to Cart</button>
+            <button className="btn" onClick={()=>addToCart(id)} >Add to Cart</button>
             <h3>Product Details<i className="fa fa-indent"></i></h3>
             <br />
             <p>
-              {products[0].product_description}
+              {id.product_description}
             </p>
           </div>
         </div>

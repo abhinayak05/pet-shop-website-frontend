@@ -42,7 +42,7 @@
       "last 1 safari version"
     ]
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "description": "This is a Ecommerce petshop website",
   "main": "index.js",
   "author": "Abhishek Nayak",
   "license": "ISC"

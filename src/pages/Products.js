@@ -43,7 +43,7 @@ const addToCart=(item)=>{
           <div className="row">
     
           {products.map((item)=> <div key={item.id} className="col-4">
-                   <Link to={"/productdetails"} state={item.id}>
+                   <Link to={"/productdetails"} state={item}>
                    <img src={"http://localhost:4000/assets/" + item.image_url} alt=""/>
                    
                     <h3>{item.product_name}</h3>
